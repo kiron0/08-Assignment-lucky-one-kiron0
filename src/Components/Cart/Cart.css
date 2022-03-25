@@ -1,0 +1,11 @@
+.cart{
+    position: sticky;
+    margin: 0 auto;
+    text-align: center;
+    top: 125px;
+}
+
+.grand-total,
+.cart-length{
+    font-weight: 600;
+}
