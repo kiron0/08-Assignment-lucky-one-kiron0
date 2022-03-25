@@ -2,7 +2,12 @@
     position: sticky;
     margin: 0 auto;
     text-align: center;
-    top: 125px;
+    top: 150px;
+}
+
+.cart h3{
+    font-size: 23px;
+    color: rgb(77, 72, 72);
 }
 
 .grand-total,
@@ -11,6 +16,8 @@
 }
 
 .cart-btn button{
+    font-size: 15px;
+    font-weight: 600;
     border: none;
     background: transparent;
     backdrop-filter: blur(5px);
@@ -20,4 +27,8 @@
     border-radius: 10px;
     margin-bottom: 10px;
     cursor: pointer;
+}
+
+.cart-btn{
+    margin-top: 30px;
 }

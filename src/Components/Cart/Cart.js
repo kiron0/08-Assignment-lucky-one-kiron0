@@ -3,7 +3,7 @@ import DisplayCartInfo from '../DisplayCartInfo/DisplayCartInfo';
 import './Cart.css'
 
 const Cart = (props) => {
-    const {cart, removeFromCart} = props;
+    const {cart, removeFromCart, clearCart} = props;
     return (
         <div className='cart reverse-main'>
             <h3>Selected Course</h3>
@@ -15,7 +15,7 @@ const Cart = (props) => {
             }
             <div className='cart-btn'>
             <button>Choose 1 For Me</button><br />
-            <button>Choose Again</button>
+            <button onClick={clearCart}>Choose Again</button>
             </div>
         </div>
     );

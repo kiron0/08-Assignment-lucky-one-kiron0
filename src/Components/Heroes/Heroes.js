@@ -18,8 +18,15 @@ const Heroes = () => {
         const newCourse = [...cart, course];
         setCart(newCourse);
     }
+    /* Remove individually item from cart */
     const removeFromCart = (id) => {
         const newList = cart.filter((item) => item.id !== id);
+        setCart(newList);
+    };
+
+    /* Remove all item from cart */
+    const clearCart = () => {
+        const newList = [];
         setCart(newList);
     };
     return (
@@ -30,7 +37,7 @@ const Heroes = () => {
             }
             </div>
             <div className="cart-container">
-                <Cart cart={cart} removeFromCart={removeFromCart}></Cart>
+                <Cart cart={cart} removeFromCart={removeFromCart} clearCart={clearCart}></Cart>
             </div>
         </div>
     );

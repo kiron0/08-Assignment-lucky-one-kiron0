@@ -1,3 +1,3 @@
 # Simple React Assignment
 
-Lucky One Chooser [Live Link](https://github.com/facebook/create-react-app).
+Lucky One Chooser [Live Link](https://lucky-one.netlify.app/)
