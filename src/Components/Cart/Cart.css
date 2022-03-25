@@ -3,16 +3,12 @@
     margin: 0 auto;
     text-align: center;
     top: 150px;
+    bottom: 0;
 }
 
 .cart h3{
     font-size: 23px;
     color: rgb(77, 72, 72);
-}
-
-.grand-total,
-.cart-length{
-    font-weight: 600;
 }
 
 .cart-btn button{

@@ -13,22 +13,22 @@ const Heroes = () => {
     }, []);
 
    /* Cart functionality */
-  const [cart, setCart] = useState([]);
-  const handleAddToCart = (course) => {
+    const [cart, setCart] = useState([]);
+    const handleAddToCart = (course) => {
     const newCourse = [...cart, course];
-    if (cart.length === 0) {
-      setCart(newCourse);
-    } else {
+        if (cart.length === 0) {
+        setCart(newCourse);
+        } else {
       const newCart = [...cart];
       const index = newCart.findIndex((item) => item.id === course.id);
       if (index === -1) {
         setCart(newCourse);
-      } else {
+        } else {
         newCart[index] = course;
         setCart(newCart);
-      }
-    }
-  };
+       }
+     }
+    };
 
     /* Remove individually item from cart */
     const removeFromCart = (id) => {
@@ -43,14 +43,17 @@ const Heroes = () => {
     };
     return (
         <div className='course-container'>
+            
             <div className='heroes-container reverse-main'>
             {
                 heroes.map(hero => <Hero key={hero.id} learningHeroes={hero} handleAddToCart={handleAddToCart}></Hero>)
             }
             </div>
+
             <div className="cart-container">
                 <Cart cart={cart} removeFromCart={removeFromCart} clearCart={clearCart}></Cart>
             </div>
+
         </div>
     );
 };

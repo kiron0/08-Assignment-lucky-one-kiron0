@@ -4,10 +4,11 @@ import './Cart.css'
 
 const Cart = (props) => {
     const {cart, removeFromCart, clearCart} = props;
-    // if cart items is greater than 4 then slow alert
+
+    // if cart items is greater than 4 then show alert
     if (cart.length > 4) {
-        alert('Add only 4 items in cart');
-    }
+        alert('Hey, only allowed 4')
+    };
     return (
         <div className='cart reverse-main'>
             <h3>Selected Courses</h3>
