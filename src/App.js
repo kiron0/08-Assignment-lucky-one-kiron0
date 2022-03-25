@@ -1,3 +1,4 @@
+import React from 'react';
 import './App.css';
 import Header from './Components/Header/Header';
 import Heroes from './Components/Heroes/Heroes';
