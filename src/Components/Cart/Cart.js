@@ -6,7 +6,7 @@ const Cart = (props) => {
     const {cart, removeFromCart, clearCart} = props;
     return (
         <div className='cart reverse-main'>
-            <h3>Selected Course</h3>
+            <h3>Selected Courses</h3>
             {
                 cart.map(courseInfo => <DisplayCartInfo
                     key={courseInfo.id}

@@ -33,6 +33,10 @@
     background-image: linear-gradient(180deg, rgba(117, 117, 117, 0.027), rgba(66, 65, 65, 0.089));
 }
 
+.instructor{
+    font-weight: 600;
+}
+
 .star{
     font-size: 1.2rem;
     color: goldenrod;
