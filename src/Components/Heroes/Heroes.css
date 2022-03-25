@@ -25,16 +25,17 @@
         grid-template-columns: repeat(1, 1fr);
         gap: 15px;
         margin: 0 auto;
+        width: 90%;
     }
     .reverse-main{
         order: 1;
     }
-    .cart-container{
+    /* .cart-container{
         position: sticky;
         margin: 0 auto;
         top: 80px;
         border-left: none;
         backdrop-filter: blur(15px);
         width: 85%;
-    }
+    } */
 }
