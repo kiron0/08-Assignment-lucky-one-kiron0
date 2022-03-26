@@ -41,6 +41,14 @@ const Heroes = () => {
         const newList = [];
         setCart(newList);
     };
+    /* Show random items */
+    const [random, setRandom] = useState([]);
+    const chooseRandom = () =>{
+        const random = cart[Math.floor(Math.random() * cart.length)]; 
+        setRandom(random);
+        // console.log(random)
+    }
+
     return (
         <div className='course-container'>
             
@@ -51,7 +59,7 @@ const Heroes = () => {
             </div>
 
             <div className="cart-container">
-                <Cart cart={cart} removeFromCart={removeFromCart} clearCart={clearCart}></Cart>
+                <Cart cart={cart} removeFromCart={removeFromCart} clearCart={clearCart} chooseRandom={chooseRandom} random={random}></Cart>
             </div>
 
         </div>
