@@ -5,6 +5,7 @@ import './DisplayCartInfo.css'
 const DisplayCartInfo = (props) => {
     const {removeFromCart} = props;
     const { instructor, image, id } = props.courseInfo;
+    
     return (
         <div>
         <h4 className="course-info"> 

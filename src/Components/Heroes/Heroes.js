@@ -16,7 +16,7 @@ const Heroes = () => {
       .then((data) => setHeroes(data));
   }, []);
 
-  /* Cart functionality */
+  /* Add To Cart */
   const [cart, setCart] = useState([]);
   const handleAddToCart = (course) => {
     const newCourse = [...cart, course];
@@ -61,7 +61,6 @@ const Heroes = () => {
   const chooseRandom = () => {
     const random = cart[Math.floor(Math.random() * cart.length)];
     setRandom(random);
-    // console.log(random)
   };
 
   return (

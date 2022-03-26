@@ -4,15 +4,6 @@
 /* link google fonts */
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&display=swap');
 
-
-:root{
-    --bg-color:#e6e6e6;
-    --box-shadow:.4rem .4rem 1rem #ccc,
-                -.4rem -.4rem 1rem #fff;
-    --box-shadow-inset:.4rem .4rem 1rem #ccc inset,
-                    -.4rem -.4rem 1rem #fff inset;
-  }
-
 body{
   margin: 0;
   padding: 0;

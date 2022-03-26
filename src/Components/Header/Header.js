@@ -15,7 +15,8 @@ const Header = () => {
                     </label>
                     <ul className='navbar-items'>
                         <li><a href="/shop">Home</a></li>
-                        <li><a href="/cart">Cart</a></li>
+                        <li><a href="/instructors">Instructors</a></li>
+                        <li><a href="/courses">Courses</a></li>
                         <li><a href="/about">About</a></li>
                     </ul>
                 </nav>

@@ -11,13 +11,13 @@ const Faq = () => {
                     </p>
             <h4>* Difference Between Props and State?</h4>
                 <p>
-                    <strong>Props</strong><br />
+                    <strong><u>Props</u></strong><br />
                     1. Props are read-only. <br />
                     2. Props are immutable. <br />
                     3. Props can be accessed by the child component. <br />
                     4. Props are used to communicate between components. <br />
                     5. Props make components reusable. <br /> <br />
-                    <strong>State</strong><br />
+                    <strong><u>State</u></strong><br />
                     1. State changes can be asynchronous. <br />
                     2. State is mutable. <br />
                     3. State holds information about the components. <br />

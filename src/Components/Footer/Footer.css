@@ -16,13 +16,13 @@
 
 .author{
     text-decoration: none;
-    font-weight: 900;
-    color: grey;
+    font-weight: 700;
+    color: rgb(77, 72, 72);
     font-size: 1.1rem;
 }
 
 .author:hover{
-    color: #444;
+    color: orange;
 }
 
 @media screen and (max-width: 490px) {
