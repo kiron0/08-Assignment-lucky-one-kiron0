@@ -32,7 +32,7 @@ const Heroes = () => {
     };
     // if cart items is greater than 4 then show alert
     if (cart.length > 4) {
-        alert("Slow down! You are going too fast!")
+        alert("Hey, Allowed 4 items")
         const newHeros = [...cart];
         newHeros.splice(4, 1);
         setCart(newHeros);
@@ -54,7 +54,6 @@ const Heroes = () => {
     const chooseRandom = () =>{
         const random = cart[Math.floor(Math.random() * cart.length)]; 
         setRandom(random);
-        // console.log(random)
     }
 
     return (
