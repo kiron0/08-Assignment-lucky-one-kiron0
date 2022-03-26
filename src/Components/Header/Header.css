@@ -24,6 +24,14 @@
     color: orange;
 }
 
+.header img{
+  width: 40px;
+}
+
+.header h2{
+  margin-left: -65%;
+}
+
 .navbar-items {
     display: flex;
 }
@@ -86,10 +94,15 @@
       .header{
         display: flex;
         align-items: center;
-        justify-content: center;
+        justify-content: space-between;
+      }
+      .header img{
+        width: 30px;
+        margin-left: -100%;
       }
       .header h2{
-        font-size: 19px;
-        margin-left: -7rem;
+        font-size: 21px;
+        /* margin-left: -7rem; */
+        margin-left: 0%;
       }
 }
