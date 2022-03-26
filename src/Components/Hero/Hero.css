@@ -12,6 +12,11 @@
     width: 180px;
     border-radius: 50%;
 }
+
+.hero p{
+    font-weight: 500;
+}
+
 .addToCart{
     margin: 0 auto;
     display: flex;
