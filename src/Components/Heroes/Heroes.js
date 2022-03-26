@@ -5,6 +5,7 @@ import './Heroes.css'
 
 const Heroes = () => {
     const [heroes, setHeroes] = useState([]);
+    const [random, setRandom] = useState([]);
 
     useEffect(() => {
         fetch('https://raw.githubusercontent.com/kiron0/fakeData-for-lucky-one/main/fakeData.json')
@@ -29,6 +30,13 @@ const Heroes = () => {
        }
      }
     };
+    // if cart items is greater than 4 then show alert
+    if (cart.length > 4) {
+        alert("Slow down! You are going too fast!")
+        const newHeros = [...cart];
+        newHeros.splice(4, 1);
+        setCart(newHeros);
+    }
 
     /* Remove individually item from cart */
     const removeFromCart = (id) => {
@@ -40,9 +48,9 @@ const Heroes = () => {
     const clearCart = () => {
         const newList = [];
         setCart(newList);
+        setRandom([]);
     };
     /* Show random items */
-    const [random, setRandom] = useState([]);
     const chooseRandom = () =>{
         const random = cart[Math.floor(Math.random() * cart.length)]; 
         setRandom(random);
