@@ -19,6 +19,7 @@
 
 .faq-info p{
     font-weight: 500;
+    line-height: 25px;
 }
 
 @media screen and (max-width: 490px) {

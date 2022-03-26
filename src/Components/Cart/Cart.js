@@ -7,6 +7,7 @@ const Cart = (props) => {
     const {cart, removeFromCart, clearCart, chooseRandom, random} = props;
 
     return (
+        <>
         <div className='cart reverse-main'>
             <h3>Selected Courses</h3>
             {
@@ -17,10 +18,16 @@ const Cart = (props) => {
             }
             <RandomItem random={random}></RandomItem>
             <div className='cart-btn'>
-            <button onClick={chooseRandom}>Choose 1 For Me</button><br />
-            <button onClick={clearCart}>Choose Again</button>
+            {
+            cart.length > 1 ?  <button onClick={chooseRandom}>Choose Random</button> : <div></div>
+            }
+            <br />
+            {
+            cart.length > 0 ?  <button onClick={clearCart}>Clear Cart</button> : <div></div>
+            }
             </div>
         </div>
+        </>
     );
 };
 
