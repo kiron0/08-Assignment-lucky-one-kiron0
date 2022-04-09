@@ -5,7 +5,7 @@
 ## The following things in this project:
 
 * Top Level Web Developer Courses
-* Courses Price, Duration, Price, Rating
+* Courses Price, Duration, Rating
 * Here you can buy course at cheap rate...
 
 ### You can see me here.. [Click Me](https://lucky-one.netlify.app/)
