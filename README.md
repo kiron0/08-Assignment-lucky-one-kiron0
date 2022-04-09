@@ -1,7 +1,43 @@
 # Learning Heroes
 
-# Live Link [Click Here](https://lucky-one.netlify.app/)
+### It's a simple React base Web App.
 
-# Here you can buy course at cheap rate...
+## The following things in this project:
 
-# Using technology in this site `React js`, `Raw CSS`, `React Icon`, `SweetAlert2` ...
+* Top Level Web Developer Courses
+* Courses Price, Duration, Price, Rating
+* Here you can buy course at cheap rate...
+
+### You can see me here.. [Click Me](https://lucky-one.netlify.app/)
+
+## Installation
+
+```bash
+git clone https://github.com/kiron0/08-Assignment-lucky-one-kiron0.git
+```
+
+```bash
+cd 08-Assignment-lucky-one-kiron0
+```
+
+```bash
+npm i
+```
+
+```bash
+code .
+```
+
+```bash
+npm start
+```
+
+## Prerequisites
+
+The following open source packages are used in this project:
+* React JS v18
+* Raw CSS
+* React Icons
+* Sweet Alert 2
+
+![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
